@@ -590,9 +590,7 @@ a {
   position: relative;
   text-align: center;
   padding: 100px 20px;
-
-  /* background image */
-  background-image: url("../assets/images/banners/banner-bg.png"); /* adjust path */
+  background-image: url("../assets/images/banners/banner-bg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
