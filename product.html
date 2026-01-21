@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product Details</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="back-wrapper container">
+  <a href="products.html" class="back-btn">← Back to Products</a>
+</div>
+
+    <div class="product-page">
+        <div class="gallery">
+            <img id="mainImage">
+            <div id="thumbnails"></div>
+        </div>
+
+        <div class="details">
+            <h1 id="productName"></h1>
+            <p id="productBrand"></p>
+            <p id="productDescription"></p>
+            <ul class="highlights">
+                <li>✔ Breathable mesh material</li>
+                <li>✔ Cushioned sole for comfort</li>
+                <li>✔ Durable outsole</li>
+                <li>✔ Ideal for daily wear</li>
+            </ul>
+            <p id="productPrice"></p>
+            <p class="price" id="productPrice"></p>
+            <p id="productSizes"></p>
+            <a id="amazonBtn" target="_blank" class="btn">Buy on Amazon</a>
+        </div>
+    </div>
+    <section class="related container">
+  <h2>You May Also Like</h2>
+  <div class="product-grid" id="relatedProducts"></div>
+</section>
+<footer class="footer">
+  <p>© 2026 StepStyle. All rights reserved.</p>
+</footer>
+
+
+    <script src="data/products.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
